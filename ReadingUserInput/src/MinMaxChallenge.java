@@ -30,8 +30,13 @@ public class MinMaxChallenge {
         loopCount++;
         }
 
-        System.out.println("Minimum: " + min);
-        System.out.println("Maximum: " + max);
+        if (loopCount > 0){
+            System.out.println("Minimum: " + min);
+            System.out.println("Maximum: " + max);
+        }else {
+            System.out.println("No valid data entered");
+        }
+
 
     }
 }
